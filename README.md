@@ -18,3 +18,4 @@ The utterances are recorded from Season 1 - 18 of South Park and stored in `char
 - [ ] Flask web application to obtain human scores on test set.
 - [ ] Contrast AI accuracy against human accuracy.
 - [ ] Flask web application to determine which SP character your diction resembles: if possible let them load emails - not sure on feasability of this yet.
+- [ ] Build models which mimic each characters diction?
