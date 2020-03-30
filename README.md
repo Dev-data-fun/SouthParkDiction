@@ -12,9 +12,9 @@ The utterances are recorded from Season 1 - 18 of South Park and stored in `char
 
 ## To-Do
 
--[ ] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
--[ ] Data exploration, semantic modelling, toxicity modelling.
--[ ] Diction modelling with ML, investigate BERT layers.
--[ ] Flask web application to obtain human scores on test set.
--[ ] Contrast AI accuracy against human accuracy.
--[ ] Flask web application to determine which SP character your diction resembles: if possible let them load emails - not sure on feasability of this yet.
+- [ ] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
+- [ ] Data exploration, semantic modelling, toxicity modelling.
+- [ ] Diction modelling with ML, investigate BERT layers.
+- [ ] Flask web application to obtain human scores on test set.
+- [ ] Contrast AI accuracy against human accuracy.
+- [ ] Flask web application to determine which SP character your diction resembles: if possible let them load emails - not sure on feasability of this yet.
