@@ -10,9 +10,19 @@ Given a collection of 70k+ utterances from the series <a href="https://en.wikipe
 
 The utterances are recorded from Season 1 - 18 of South Park and stored in `characterUtterances.csv`  under the `/data` folder.
 
+## Files
+
+  1. SPdiction_clean.ipynb
+
+#### SPdiction_clean.ipynb
+
+The data was cleaned in the following manner: ellipses indicating stutters were stripped and replaced with blank space. Regular punctuation was then removed and the lines were lowercased. A lower bound was placed on the number of words in a line, a value of 4 has been decided for the time being. 6 main characters were selected for the time being, and all others dropped.
+
+The results of this is saved in `/data/procCharLines.csv`
+
 ## To-Do
 
--[ ] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
+-[x] Clean & preprocess data, determine appropriate minimum length.
 -[ ] Data exploration, semantic modelling, toxicity modelling.
 -[ ] Diction modelling with ML, investigate BERT layers.
 -[ ] Flask web application to obtain human scores on test set.
