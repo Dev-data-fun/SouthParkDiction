@@ -23,9 +23,13 @@ The results of this is saved in `/data/procSelectCharLines.csv`.
 
 The results for all characters is saved in `/data/procAllCharLines`
 
+<a href='https://colab.research.google.com/drive/15B5iReXJFI1v7RMoxYwrev6NJl-2cCZT'>Open in Google Colab</a>
+
 #### SPdiction_EDA.ipynb
 
 Exploratory data analysis of the processed character lines. We look at the total lines per character, the distribution of line lengths per character, the most common uni/bi/tri-grams across all lines, as well as the most frequent uni/bi/tri-grams for each of our chosen characters. We end of using the VADER module to detect the sentiment of each line and plot the sentiment of our characters, and the sentiment variation over the 18 seasons.
+
+<a href='https://colab.research.google.com/drive/1NC5aAYyqmRaGSean3o8LLfVIGkxNOKg3'>Open in Google Colab</a>
 
 ## To-Do
 
