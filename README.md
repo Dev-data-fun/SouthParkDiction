@@ -19,16 +19,18 @@ The utterances are recorded from Season 1 - 18 of South Park and stored in `char
 
 The data was cleaned in the following manner: ellipses indicating stutters were stripped and replaced with blank space. Regular punctuation was then removed and the lines were lowercased. A lower bound was placed on the number of words in a line, a value of 4 has been decided for the time being. 6 main characters were selected for the time being, and all others dropped.
 
-The results of this is saved in `/data/procCharLines.csv`.
+The results of this is saved in `/data/procSelectCharLines.csv`.
+
+The results for all characters is saved in `/data/procAllCharLines`
 
 #### SPdiction_EDA.ipynb
 
-EDA notebook in progress.
+Exploratory data analysis of the processed character lines. We look at the total lines per character, the distribution of line lengths per character, the most common uni/bi/tri-grams across all lines, as well as the most frequent uni/bi/tri-grams for each of our chosen characters. We end of using the VADER module to detect the sentiment of each line and plot the sentiment of our characters, and the sentiment variation over the 18 seasons.
 
 ## To-Do
 
 - [x] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
-- [ ] Data exploration, semantic modelling, toxicity modelling.
+- [x] Data exploration, semantic modelling.
 - [ ] Diction modelling with ML, investigate BERT layers.
 - [ ] Flask web application to obtain human scores on test set.
 - [ ] Contrast AI accuracy against human accuracy.
