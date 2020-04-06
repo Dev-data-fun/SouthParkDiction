@@ -14,6 +14,7 @@ The utterances are recorded from Season 1 - 18 of South Park and stored in `char
 
   1. SPdiction_clean.ipynb
   2. SPdiction_EDA.ipynb
+  3. SPdiction_detection.ipynb
 
 #### SPdiction_clean.ipynb
 
@@ -31,11 +32,15 @@ Exploratory data analysis of the processed character lines. We look at the total
 
 <a href='https://colab.research.google.com/drive/1NC5aAYyqmRaGSean3o8LLfVIGkxNOKg3'>Open in Google Colab</a>
 
+#### SPdiction_detection.ipynb
+
+Added very basic conv model.
+
 ## To-Do
 
 - [x] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
 - [x] Data exploration, semantic modelling.
-- [ ] Diction modelling with ML, investigate BERT layers.
+- [ ] Diction modelling with ML, investigate BERT layers, ELMO.
 - [ ] Flask web application to obtain human scores on test set.
 - [ ] Contrast AI accuracy against human accuracy.
 - [ ] Flask web application to determine which SP character your diction resembles: if possible let them load emails - not sure on feasability of this yet.
