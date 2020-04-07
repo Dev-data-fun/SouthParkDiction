@@ -34,13 +34,13 @@ Exploratory data analysis of the processed character lines. We look at the total
 
 #### SPdiction_detection.ipynb
 
-Added very basic conv model.
+Added very basic conv model (41%) + BERT (50%).
 
 ## To-Do
 
 - [x] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
 - [x] Data exploration, semantic modelling.
-- [ ] Diction modelling with ML, investigate BERT layers, ELMO.
+- [x] Diction modelling with ML, investigate BERT.
 - [ ] Flask web application to obtain human scores on test set.
 - [ ] Contrast AI accuracy against human accuracy.
 - [ ] Flask web application to determine which SP character your diction resembles: if possible let them load emails - not sure on feasability of this yet.
