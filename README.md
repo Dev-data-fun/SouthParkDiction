@@ -6,11 +6,17 @@ My project surrounding South Park character diction learning.
 
 Given a collection of 70k+ utterances from the series <a href="https://en.wikipedia.org/wiki/South_Park">South Park</a>, can an AI model learn the diction of different main characters? Is it able to out perform humans who are familiar with the show?
 
-## Data
+## Folders
+
+### Data
 
 The utterances are recorded from Season 1 - 18 of South Park and stored in `characterUtterances.csv`  under the `/data` folder.
 
-## Files
+### webapp
+
+The flask web application (hosted <a href="http://spdiction.pythonanywhere.com/test">here</a>) source files are located under `/webapp`.
+
+## Notebooks
 
   1. SPdiction_clean.ipynb
   2. SPdiction_EDA.ipynb
@@ -41,7 +47,7 @@ Added very basic conv model (41%) + BERT (50%).
 - [x] Clean & preprocess data, determine appropriate minimum length, train and test splits etc.
 - [x] Data exploration, semantic modelling.
 - [x] Diction modelling with ML, investigate BERT.
-- [ ] Flask web application to obtain human scores on test set.
+- [x] Flask web application to obtain human scores on test set.
 - [ ] Contrast AI accuracy against human accuracy.
 - [ ] Flask web application to determine which SP character your diction resembles: if possible let them load emails - not sure on feasability of this yet.
 - [ ] Build models which mimic each characters diction?
